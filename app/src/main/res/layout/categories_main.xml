@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,10 +12,10 @@
         android:layout_height="1503dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintHorizontal_bias="0.396"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444"
+        app:layout_constraintVertical_bias="0.433"
         app:srcCompat="@drawable/categories_img" />
 
     <Button
@@ -102,104 +103,66 @@
         app:layout_constraintVertical_bias="0.332"
         app:srcCompat="@drawable/icon_login" />
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="247dp"
-        android:layout_height="81dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/home1" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="247dp"
-        android:layout_height="81dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649"
-        app:srcCompat="@drawable/home1" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="247dp"
-        android:layout_height="81dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801"
-        app:srcCompat="@drawable/home1" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="247dp"
-        android:layout_height="81dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955"
-        app:srcCompat="@drawable/home1" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Residuos no reciclables"
-        android:textColorLink="#F8F5F5"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Vidrio"
-        android:textColorLink="#F2EDED"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Carton y papel"
-        android:textColorLink="#F4F1F1"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Plastico"
-        android:textColorLink="#F0EBEB"
-        android:textSize="20sp"
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="167dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#ECCB8D"
+        android:text="Plástico"
+        android:textColor="#0D0C0C"
+        android:textColorLink="#FFEB3B"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="169dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#ECCB8D"
+        android:text="Cartón y Papel"
+        android:textColor="#0D0C0C"
+        android:textColorLink="#FFEB3B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="166dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#ECCB8D"
+        android:text="Vidrio"
+        android:textColor="#090909"
+        android:textColorLink="#FFEB3B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="171dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#ECCB8D"
+        android:text="Residuos no reciclables"
+        android:textColor="#121212"
+        android:textColorLink="#FFEB3B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

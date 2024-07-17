@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8C485">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        android:background="@drawable/img_return"
+        android:backgroundTint="#0D0C0C"
+        android:foreground="@drawable/img_return"
+        android:foregroundTint="#0D0C0C"
+        android:shadowColor="#000000"
+        android:text="Volver"
+        android:textColor="#F4EFEF"
+        android:textColorLink="#F4EEEE"
+        app:iconTint="#0D0D0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consejo 3"
+        android:textColor="#090909"
+        android:textColorLink="#FFEB3B"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="201dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107"
+        app:srcCompat="@drawable/banana_statistics" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="328dp"
+        android:layout_height="319dp"
+        android:text="MonkeyRecycle dice... Compra productos reciclados &quot;Apoya el ciclo del reciclaje comprando productos hechos de materiales reciclados. Esto no solo reduce la cantidad de residuos, sino que también promueve un mercado más sostenible y amigable con el medio ambiente.&quot;"
+        android:textColor="#070707"
+        android:textColorLink="#FFEB3B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="173dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#F8F4F4"
+        android:text="¡TOMAR!"
+        android:textColor="#090909"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4AA4F">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        android:background="@drawable/img_return"
+        android:backgroundTint="#0D0C0C"
+        android:foreground="@drawable/img_return"
+        android:foregroundTint="#0D0C0C"
+        android:shadowColor="#000000"
+        android:text="Volver"
+        android:textColor="#F4EFEF"
+        android:textColorLink="#F4EEEE"
+        app:iconTint="#0D0D0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consejo 2"
+        android:textColor="#070707"
+        android:textColorLink="#FFEB3B"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="140dp"
+        android:layout_height="137dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        app:srcCompat="@drawable/banana_statistics" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="357dp"
+        android:layout_height="319dp"
+        android:text="MonkeyRecycle dice... Reutiliza antes de reciclar &quot;Antes de tirar algo a la basura, piensa si puedes reutilizarlo. Muchas cosas pueden tener una segunda vida con un poco de creatividad. ¡Transforma tus frascos de vidrio en hermosos jarrones o tus cajas de cartón en organizadores!&quot;"
+        android:textColor="#0D0D0D"
+        android:textColorLink="#FFEB3B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="148dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#F6F4F4"
+        android:text="¡TOMAR!"
+        android:textColor="#0D0D0D"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+</androidx.constraintlayout.widget.ConstraintLayout>
