@@ -41,12 +41,35 @@ public class MainCategories extends AppCompatActivity {
     }
 
     private void setupListeners() {
-        returnButton.setOnClickListener(view -> navigateToMainActivity());
-        // Puedes agregar listeners para los demás botones aquí si es necesario
+        returnButton.setOnClickListener(view -> navigateToMainHome());
+        plasticButton.setOnClickListener(view -> navigateToPlasticActivity());
+        paperButton.setOnClickListener(view -> navigateToPaperActivity());
+        glassButton.setOnClickListener(view -> navigateToGlassActivity());
+        noRecycleButton.setOnClickListener(view -> navigateToNoRecycleActivity());
     }
 
-    private void navigateToMainActivity() {
-        Intent intent = new Intent(MainCategories.this, MainActivity.class);
+    private void navigateToMainHome() {
+        Intent intent = new Intent(MainCategories.this, MainHome.class);
+        startActivity(intent);
+    }
+
+    private void navigateToPlasticActivity() {
+        Intent intent = new Intent(MainCategories.this, MainPlastic.class);
+        startActivity(intent);
+    }
+
+    private void navigateToPaperActivity() {
+        Intent intent = new Intent(MainCategories.this, MainPaper.class);
+        startActivity(intent);
+    }
+
+    private void navigateToGlassActivity() {
+        Intent intent = new Intent(MainCategories.this, MainGlass.class);
+        startActivity(intent);
+    }
+
+    private void navigateToNoRecycleActivity() {
+        Intent intent = new Intent(MainCategories.this, MainNoRecyclable.class);
         startActivity(intent);
     }
 }

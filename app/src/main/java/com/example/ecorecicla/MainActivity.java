@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         login.setOnClickListener(view -> {
-            Intent next = new Intent(MainActivity.this, MainCategories.class);
+            Intent next = new Intent(MainActivity.this, MainHome.class);
             startActivity(next);
         });
     }

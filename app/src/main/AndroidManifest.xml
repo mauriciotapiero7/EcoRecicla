@@ -21,6 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainCategories"
+            android:exported="false"/>
+        <activity android:name=".MainHome"
+            android:exported="false"/>
+        <activity android:name=".MainRegistration"
+            android:exported="false"/>
+        <activity android:name=".MainStatistics"
+            android:exported="false"/>
+        <activity android:name=".MainTips"
+            android:exported="false"/>
+        <activity android:name=".MainPlastic"
+            android:exported="false"/>
+        <activity android:name=".MainPaper"
+            android:exported="false"/>
+        <activity android:name=".MainGlass"
+            android:exported="false"/>
+        <activity android:name=".MainNoRecyclable"
+            android:exported="false"/>
     </application>
 
 </manifest>
