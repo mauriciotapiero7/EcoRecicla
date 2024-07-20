@@ -39,6 +39,16 @@
             android:exported="false"/>
         <activity android:name=".MainNoRecyclable"
             android:exported="false"/>
+        <activity android:name=".MainHomeRegistration"
+            android:exported="false"/>
+        <activity android:name=".MainPrice"
+            android:exported="false"/>
+        <activity android:name=".MainTipsOne"
+            android:exported="false"/>
+        <activity android:name=".MainTipsTwo"
+            android:exported="false"/>
+        <activity android:name=".MainTipsThree"
+            android:exported="false"/>
     </application>
 
 </manifest>
