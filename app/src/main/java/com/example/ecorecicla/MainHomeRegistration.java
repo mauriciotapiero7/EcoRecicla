@@ -32,7 +32,7 @@ public class MainHomeRegistration extends AppCompatActivity {
      TextView errors;
      Button register;
 
-    public enum TipoCampo { REQUERIDO, NO_REQUERIDO }
+    public enum TipoCampo { REQUERIDO, NO_REQUERIDO };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,8 +58,8 @@ public class MainHomeRegistration extends AppCompatActivity {
         register.setOnClickListener(view -> {
             Validation validation = new Validation();
 
-            Validation.validateEmail(email, this);
-            Validation.validatePassword(password, repeatpassword, 8, 16);
+            validation.validateEmail(email, this);
+            validation.validatePassword(password, repeatpassword, 8, 16);
 
             boolean hasErrors = validation.showErrorMessages(errors);
 
@@ -68,9 +68,9 @@ public class MainHomeRegistration extends AppCompatActivity {
 
             if(!hasErrors){
                 //Register user Database
-                user = new User();
-                user.setEmail(email.getText().toString());
-                user.setPassword(Encrypt.encryptPassword(password.getText().toString())); //Encrypt password
+                user            = new User();
+                user.email      = email.getText().toString();
+                user.password   = Encrypt.encryptPassword(password.getText().toString()); //Encrypt password
 
                 storageUserInDatabase();
             }
