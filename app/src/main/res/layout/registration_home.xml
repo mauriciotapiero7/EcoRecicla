@@ -140,4 +140,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.85" />
 
+    <TextView
+        android:id="@+id/errors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="8sp"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="#B71C1C"
+        android:visibility="gone" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
