@@ -57,9 +57,12 @@ public class MainRegistration extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //Información boton registro materiales en HomeRegistration
     private void navigateToRegistrationActivity() {
         Intent intent = new Intent(MainRegistration.this, MainRegistration.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
+
 
 }
